@@ -1,5 +1,5 @@
 import asyncio
-from mcp.server.fastmcp import FastMCP
+from fastmcp import FastMCP
 from transactional_db import CUSTOMERS_TABLE, ORDERS_TABLE, PRODUCTS_TABLE
 
 mcp = FastMCP("ecommerce_tools")
