@@ -1,0 +1,13 @@
+// Using Visual Studio Code, go to MCP: Add Server and update these values as needed.
+{
+	"servers": {
+		"ecommerce-db-server": {
+			"type": "stdio",
+			"command": "/Users/peternguyen/Desktop/python-mcp/venv/bin/python",
+			"args": [
+				"/Users/peternguyen/Desktop/python-mcp/main.py"
+			]
+		}
+	},
+	"inputs": []
+}
